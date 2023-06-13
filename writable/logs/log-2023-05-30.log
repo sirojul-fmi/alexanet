@@ -1,0 +1,128 @@
+ERROR - 2023-05-30 11:24:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(100) NOT NULL,
+	`role` ENUM('admin','member') N...' at line 3 in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-023557_Users.php(36): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-30 11:27:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`password` VARCHAR(100) NOT NULL,
+	`role` ENUM('admin\",\"member')...' at line 3 in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-023557_Users.php(36): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-30 15:42:40 --> mysqli_sql_exception: Unknown table 'alexanet_db.messages' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `mes...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `mes...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `mes...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `mes...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-125054_Messages.php(40): CodeIgniter\Database\Forge->dropTable('messages')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\Messages->down()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 15:43:44 --> mysqli_sql_exception: Unknown table 'alexanet_db.messages' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `mes...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `mes...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `mes...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `mes...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-125054_Messages.php(40): CodeIgniter\Database\Forge->dropTable('messages')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\Messages->down()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 15:44:24 --> mysqli_sql_exception: Unknown table 'alexanet_db.premis_category' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pre...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pre...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pre...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pre...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-113334_PremisCategories.php(30): CodeIgniter\Database\Forge->dropTable('premis_category')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\PremisCategories->down()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 15:45:09 --> mysqli_sql_exception: Unknown table 'alexanet_db.premis_category' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pre...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pre...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pre...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pre...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Migrations\2023-05-30-113334_PremisCategories.php(30): CodeIgniter\Database\Forge->dropTable('premis_category')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(877): App\Database\Migrations\PremisCategories->down()
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 15:58:20 --> mysqli_sql_exception: Unknown column 'category_id' in 'field list' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Seeds\PremisesSeeder.php(27): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Seeder.php(146): App\Database\Seeds\PremisesSeeder->run()
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-30 16:13:22 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Database\Seeds\PremisesSeeder.php(28): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\Seeder.php(146): App\Database\Seeds\PremisesSeeder->run()
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

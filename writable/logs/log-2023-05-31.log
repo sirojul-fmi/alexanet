@@ -1,0 +1,7 @@
+CRITICAL - 2023-05-31 01:56:46 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Controllers\Guest.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')

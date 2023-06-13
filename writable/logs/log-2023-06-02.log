@@ -1,0 +1,187 @@
+CRITICAL - 2023-06-02 03:43:47 --> Undefined array key "packet"
+in APPPATH\Controllers\ForwardChaining.php on line 43.
+ 1 APPPATH\Controllers\ForwardChaining.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "packet"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 43)
+ 2 APPPATH\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 03:44:03 --> Undefined array key "packet"
+in APPPATH\Controllers\ForwardChaining.php on line 43.
+ 1 APPPATH\Controllers\ForwardChaining.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "packet"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 43)
+ 2 APPPATH\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+ERROR - 2023-06-02 03:44:49 --> mysqli_sql_exception: Unknown column 'R1' in 'where clause' in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Controllers\ForwardChaining.php(41): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining(Array)
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#10 {main}
+CRITICAL - 2023-06-02 03:44:49 --> Unknown column 'R1' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM packets WHERE packet_code=R1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM packets WHERE packet_code=R1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM packets WHERE packet_code=R1')
+ 4 APPPATH\Controllers\ForwardChaining.php(41): CodeIgniter\Database\BaseConnection->query('SELECT * FROM packets WHERE packet_code=R1')
+ 5 APPPATH\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 03:46:05 --> Undefined array key "packet"
+in APPPATH\Controllers\ForwardChaining.php on line 43.
+ 1 APPPATH\Controllers\ForwardChaining.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "packet"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 43)
+ 2 APPPATH\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 03:46:49 --> Undefined array key "id"
+in APPPATH\Controllers\ForwardChaining.php on line 43.
+ 1 APPPATH\Controllers\ForwardChaining.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 43)
+ 2 APPPATH\Controllers\Guest.php(26): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:20:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:21:00 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[object Object]')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:21:45 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('G2,G5,G9,G12')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:23:31 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining('G1,G5,G9,G12')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('G1,G5,G9,G12')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:24:11 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('G1,G5,G9,G12')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:24:28 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('G1,G5,G9,G12')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:25:08 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(24): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('G1,G5,G9,G12')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:34:43 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining(null)
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:36:31 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(29): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:38:28 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(29): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:39:04 --> Undefined array key "fact1"
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\ForwardChaining.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fact1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 35)
+ 2 APPPATH\Controllers\Guest.php(29): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:43:24 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(29): App\Controllers\ForwardChaining->forwardChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:44:09 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(29): App\Controllers\ForwardChaining->forwardChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-02 06:44:40 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\ForwardChaining.php on line 33.
+ 1 APPPATH\Controllers\ForwardChaining.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 33)
+ 2 APPPATH\Controllers\Guest.php(30): App\Controllers\ForwardChaining->forwardChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[["fact1" => "G1","fact2" => "G6","fact3" => "G10","fact4" => "G13",]]')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')

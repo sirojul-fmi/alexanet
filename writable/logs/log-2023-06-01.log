@@ -1,0 +1,168 @@
+CRITICAL - 2023-06-01 02:00:43 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 37.
+ 1 APPPATH\Controllers\Guest.php(20): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:01:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 37.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:01:42 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 37.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:04:37 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:07:09 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:07:35 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:08:01 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 34.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:09:02 --> Undefined array key "rule1"
+in APPPATH\Controllers\ForwardChaining.php on line 34.
+ 1 APPPATH\Controllers\ForwardChaining.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rule1"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 34)
+ 2 APPPATH\Controllers\Guest.php(27): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:09:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 34.
+ 1 APPPATH\Controllers\Guest.php(27): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:11:47 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:12:52 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 30.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:13:09 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 30.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:15:24 --> Cannot use [] for reading
+in APPPATH\Controllers\ForwardChaining.php on line 30.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:16:33 --> Undefined array key 1
+in APPPATH\Controllers\ForwardChaining.php on line 30.
+ 1 APPPATH\Controllers\ForwardChaining.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 30)
+ 2 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:20:57 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\ForwardChaining.php on line 25.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:23:30 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\ForwardChaining.php on line 25.
+ 1 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 02:24:58 --> Uninitialized string offset 2
+in APPPATH\Controllers\ForwardChaining.php on line 31.
+ 1 APPPATH\Controllers\ForwardChaining.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 2', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\ForwardChaining.php', 31)
+ 2 APPPATH\Controllers\Guest.php(25): App\Controllers\ForwardChaining->forwardChaining([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 11:33:08 --> Too few arguments to function App\Controllers\Guest::forwardChaining(), 0 passed in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Guest.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->forwardChaining()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 11:33:46 --> Too few arguments to function App\Controllers\Guest::fc(), 0 passed in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Guest.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fc()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 11:34:10 --> Too few arguments to function App\Controllers\Guest::connTest(), 0 passed in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Guest.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->connTest()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-01 11:57:59 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ForwardChaining.php on line 35.
+ 1 APPPATH\Controllers\Guest.php(28): App\Controllers\ForwardChaining->forwardChaining([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->fChaining('[G1,G5,G9,G12]')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')

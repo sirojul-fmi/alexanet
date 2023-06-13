@@ -1,0 +1,230 @@
+CRITICAL - 2023-06-08 02:08:34 --> Undefined array key "invoice"
+in APPPATH\Views\admin\pesan\list_pesan_pencopotan.php on line 45.
+ 1 APPPATH\Views\admin\pesan\list_pesan_pencopotan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "invoice"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_pencopotan.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(75): view('admin/pesan/list_pesan_pencopotan.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('pencopotan')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 05:07:35 --> Undefined array key "invoice"
+in APPPATH\Views\admin\pesan\list_pesan_pencopotan.php on line 45.
+ 1 APPPATH\Views\admin\pesan\list_pesan_pencopotan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "invoice"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_pencopotan.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(75): view('admin/pesan/list_pesan_pencopotan.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('pencopotan')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 11:25:09 --> Undefined array key "up_paket"
+in APPPATH\Controllers\Pesan.php on line 71.
+ 1 APPPATH\Controllers\Pesan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "up_paket"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\Pesan.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 11:31:22 --> Undefined variable $updated_paket
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 108.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $updated_paket', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(78): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 11:32:29 --> Undefined array key "updated_packet"
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 108.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_packet"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(78): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 11:33:04 --> Undefined variable $update_paket
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 108.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update_paket', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(78): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 11:33:36 --> Undefined variable $update_paket
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 108.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $update_paket', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(78): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+ERROR - 2023-06-08 12:03:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'members.id AS member_id 
+                FROM messages, members, packets, cus...' at line 2 in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT messages...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT messages...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT messages...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Controllers\Pesan.php(58): CodeIgniter\Database\BaseConnection->query('SELECT messages...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#9 {main}
+CRITICAL - 2023-06-08 12:03:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'members.id AS member_id 
+                FROM messages, members, packets, cus...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT messages.*, members.*, packets.*, customers.* 
+                members.id AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT messages.*, members.*, packets.*, customers.* 
+                members.id AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT messages.*, members.*, packets.*, customers.* 
+                members.id AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 4 APPPATH\Controllers\Pesan.php(58): CodeIgniter\Database\BaseConnection->query('SELECT messages.*, members.*, packets.*, customers.* 
+                members.id AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+ERROR - 2023-06-08 12:03:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(members.id) AS member_id 
+                FROM messages, members, packets, c...' at line 2 in D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT messages...', 0)
+#1 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT messages...')
+#2 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT messages...')
+#3 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\app\Controllers\Pesan.php(58): CodeIgniter\Database\BaseConnection->query('SELECT messages...')
+#4 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+#5 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+#6 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\Kuliah\Semester 8\PA Falah\alexanet_appv1\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semes...')
+#9 {main}
+CRITICAL - 2023-06-08 12:03:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(members.id) AS member_id 
+                FROM messages, members, packets, c...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT messages.*, members.*, packets.*, customers.* 
+                (members.id) AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT messages.*, members.*, packets.*, customers.* 
+                (members.id) AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT messages.*, members.*, packets.*, customers.* 
+                (members.id) AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 4 APPPATH\Controllers\Pesan.php(58): CodeIgniter\Database\BaseConnection->query('SELECT messages.*, members.*, packets.*, customers.* 
+                (members.id) AS member_id 
+                FROM messages, members, packets, customers 
+                WHERE messages.member_id=members.id 
+                AND members.customer_id=customers.customer_id 
+                AND members.packet_id=packets.packet_code 
+                AND messages.jenis_pesan=\'unsubscribe\' 
+                AND messages.status=\'unread\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 12:12:22 --> Undefined array key "user_id"
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 128.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 128)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(76): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 12:12:44 --> Undefined array key "customer_id"
+in APPPATH\Views\admin\pesan\list_pesan_upgrade.php on line 129.
+ 1 APPPATH\Views\admin\pesan\list_pesan_upgrade.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_id"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_upgrade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_upgrade.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(76): view('admin/pesan/list_pesan_upgrade.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('upgrade')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 12:25:41 --> Undefined array key "invoice"
+in APPPATH\Views\admin\pesan\list_pesan_pencopotan.php on line 45.
+ 1 APPPATH\Views\admin\pesan\list_pesan_pencopotan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "invoice"', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Views\\admin\\pesan\\list_pesan_pencopotan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pesan/list_pesan_pencopotan.php', [], true)
+ 5 APPPATH\Controllers\Pesan.php(81): view('admin/pesan/list_pesan_pencopotan.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pesan->listPesan('pencopotan')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
+CRITICAL - 2023-06-08 12:46:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 38.
+ 1 APPPATH\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\app\\Controllers\\Auth.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\Semester 8\\PA Falah\\alexanet_appv1\\public\\index.php')
